@@ -1,0 +1,70 @@
+
+/*Válido para las 3 páginas mediante el uso de @import
+  En caso de que exista problemas en las otras páginas 
+  desvincule el @import y establezca ésta configuración
+  manualmente copiando el contenido de éste documento
+  y pegandolo en la hoja de estilos de la página en cuestión.*/
+
+@media screen and (max-width: 480px){
+    
+    /*Responsive Index*/
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .footer h6{
+        font-size: 1px;
+    }
+
+    .box, .principal, .mapBox, .Diferenciales, .media{
+        width: auto;
+    }
+
+    .differList, .imgDiferenciales{
+        width: 100%;
+    }
+
+    /*Responsive Productos*/
+    .products li{
+        width: auto;
+        margin: 0 auto;
+        padding: 50px;
+      }
+    
+    .icon{
+        align-content: center;
+    }
+
+    /*Responsive Contactos*/
+    form label, form legend, form select{
+        display: block;
+        font-size: 2em;
+        width: 95%;
+        margin: 10px 20px 10px;
+    }
+
+    .inputPadron {
+        display: block;
+        margin: 20px 20px 20px;
+        padding: 10px 25px;
+        width: 80%;
+    }
+
+    .send {
+        width: 70%;
+        padding: 25px 0px;
+        font-size: 2em;
+        font-weight: bold;
+        color: #ffffff;
+        background: #c78c19;
+        border: non;
+    }
+
+    table {
+        margin: 60px 380px;
+    }
+}

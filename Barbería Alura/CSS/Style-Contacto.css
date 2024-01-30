@@ -1,0 +1,138 @@
+@import "./Fonts.css";
+@import "./reset.css";
+@import "./responsive.css";
+
+header {
+  background-color: #bbbbbb;
+  background: url(../img/papel-tapiz-peluquero-fondo-marmol-negro.jpg);
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.box {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #bbbbbb;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+
+main{
+  width: 940 px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 20px;
+}
+
+form label, form legend, form select{
+  display: block;
+  font-size: 20px;
+  margin: 0 20px 10px;
+}
+
+.inputPadron{
+  display: block;
+  margin: 0 20px 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+form input:hover{
+  border-color: #c78c19;
+}
+
+form input:active{
+  border-color: #0060df;
+}
+
+/*.contactMethod{
+  color: #c78c19;
+}*/
+
+.checkboxContact{
+  margin: 20px 20px;
+}
+
+.send{
+width: 40%;
+padding: 15px 0;
+font-size: 18px;
+font-weight: bold;
+color: #ffffff;
+background: #c78c19;
+border: none;
+border-radius: 5px;
+transition: 1s all;
+cursor:pointer;
+}
+
+.send:hover{
+background: darkorange;
+transform: scale(1.2);
+}
+
+table{
+margin: 60px 180px;
+}
+
+thead{
+background: #555555;
+color: #ffffff;
+font-weight: bold;
+}
+
+td,th{
+border: 1px solid #000000;
+padding: 8px 15px;
+}
+/*.send:active{
+transform: ;
+}*/
+
+/*Pie de página*/
+footer {
+  text-align: center;
+  background: url(../img/telon-fondo-textura-muro-hormigon-solido.jpg);
+  background-size: 100%;
+  padding: 40px;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px;
+}
+
+.code-design{
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+                                            /*Edited by { Code</>Design } \00AE */

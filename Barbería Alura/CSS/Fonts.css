@@ -1,0 +1,19 @@
+/*Tipografía general de toda la página*/
+@font-face{
+    font-family: "CaptainPod";
+    src: url(../Fonts/Captain-Podd/Captpod.ttf);
+
+    font-family: "Audiowide";
+    src: url(../Fonts/Audiowide-google-fonts/Audiowide-Regular.ttf);
+
+    font-family: "ShareTechMono";
+    src: url(../Fonts/Share_Tech_Mono-google-fonts/ShareTechMono-Regular.ttf);
+  }
+  
+  html, body, nav, p, footer{
+    font-family: "Audiowide"/*, "ShareTechMono";*/
+  }
+
+  html{
+    font-family: Arial, Helvetica, sans-serif;
+  }

@@ -1,0 +1,260 @@
+@import "./reset.css";
+@import "../Fonts.css";
+@import "../CSS/responsive.css";
+
+/*Panel de navegación*/
+header {
+   background-color: #bbbbbb;
+   background: url(../img/papel-tapiz-peluquero-fondo-marmol-negro.jpg);
+   background-size: cover;
+   padding: 80px 0;
+}
+
+.box {
+   width: 940px;
+   position: relative;
+   margin: 0 auto;
+}
+ 
+nav {
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
+
+ul{
+   display: inline-flex;
+   vertical-align: top;
+   width: 20%;
+   margin-right: 15%;
+}
+ 
+nav li {
+   display: inline-flex;
+   margin: 0 0 0 15px;
+}
+ 
+nav a {
+   text-transform: uppercase;
+   color: #bbbbbb;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+}
+ 
+nav a:hover {
+   color: #c78c19;
+   text-decoration: underline;
+}
+
+/*Sección de la presentación*/
+
+    /* Este atributo se denomina Pseudo-Elementos.
+    Su función es llamar una id, una clase o una etiqueta en particular
+    como <p> o <h1> por ejemplo y aplicar un estilo
+    a un elemento determinado de la clase. En el ejemplo
+    se aplica una Fuente Negrita a la primera letra de
+    la clase .titPrincipal
+
+        .titPrincipal:first-letter{
+            font-weight: bold;
+        } */
+
+.titCentral{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 30px;
+    /*background: #CCCCCC;*/
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    color: rgba(0,0,0,0.3);
+ }
+
+ .banner{
+    width: 100%;
+ }
+
+ .principal{
+    padding: 3em;
+    background: #fefefe;
+ }
+
+ .principal p{
+    /*background: #CCCCCC;*/
+    text-align: center;
+    margin: 1em 2em 1em;
+    padding: 1px;
+ }
+
+ section p{
+    text-align: center;
+}
+
+ .principal strong{
+    font-weight: bold;
+ }
+
+ .principal em{
+    font-style: italic;
+ }
+
+ .imgUtensilios{
+    width: 120px;
+    float: left;
+    padding-left: 20%;
+    margin: 0 10px 10px 0;
+ }
+
+ em strong{
+    color: #c78c19;
+ }
+
+ #mision{
+    font-size: 20px;
+}
+
+/*Sección Mapa*/
+.mapBox{
+    padding: 3em 0;
+    /*Se aplica un degradado de colores.
+    Para que un color ocupe más espacio que los demás
+    se especifica en porcentaje, la cantidad que se desea aplicar.
+    Ejemplo: darkgrey 50%, black 10%; 
+    Para usar otras clases de degradados está también
+    el radial-gradient.
+    background: linear-gradient(black, darkgrey, grey, darkgrey, black); */
+    background: linear-gradient(#fefefe,#9f9d9d);
+ }
+
+ .mapBox p{
+    margin: 0 0 2em;
+    text-align: center;
+ }
+
+ .mapFrame{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*Sección Diferenciales*/
+.Diferenciales{
+    background: linear-gradient(#9f9d9d, #888888, #616161 50%, #464646);
+    padding: 3em 0;
+ }
+
+ .Diferenciales h3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+ }
+
+ .divUL{
+    width: 640px;
+    margin: 0 auto;
+ }
+
+ .differList{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+ }
+
+ .titCentral{
+    text-align: center;
+ }
+
+ .items{
+    font-style: italic;
+    line-height: 1.5;
+ }
+
+ .items:before{
+    content: "✔ ";
+ }
+
+    /*Esto se llama Pseudo-Clase*/
+ .items:first-child{
+    font-weight: bold;
+ }
+
+ /*.items:nth-child(1,2,3,4,5,6,7,8,9, etc...){
+    font-weight: bold;
+
+    Con éste elemento se especifica el número del orden 
+    del elemento que se requiere aplicar el estilo.
+    Si colocamos 2m, el estilo se aplicaría en los elementos pares.
+ }*/
+
+ .imgDiferenciales{
+    width: 40%;
+    float: right;
+    position: absolute;
+    /* margin: 0 0 20em; */
+    /*box-shadow: 10px 10px 30px 15px #000000, -10px -10px,
+        -15px 10px;  Se puede utilizar box shadow y text shadow de ésta manera incluso aplicando colores. */
+    box-shadow: 10px 10px 30px 15px #000000;
+ }
+
+ .imgDiferenciales:hover{
+    opacity: 0.3%;
+    transition: 400ms;
+ }
+
+ /*Sección Video*/
+ .media{
+    width: 560px;
+    margin: 14em auto;
+}
+
+/*Pie de página*/
+footer {
+    text-align: center;
+    background: url(../img/telon-fondo-textura-muro-hormigon-solido.jpg);
+    background-size: 100%;
+    padding: 40px;
+  }
+  
+  .copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+  }
+
+ .code-design{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+/*
+@media screen and (max-width: 480px){
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .footer h6{
+        font-size: 1px;
+    }
+
+    .box, .principal, .mapBox, .Diferenciales, .media{
+        width: auto;
+    }
+
+    .differList, .imgDiferenciales{
+        width: 100%;
+    }
+}
+*/
+
+
+
+
+
+                        /*Edited by { Code</>Design } \00AE */
