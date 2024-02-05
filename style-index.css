@@ -190,7 +190,7 @@ nav a:hover {
  .imgDiferenciales{
     width: 40%;
     float: right;
-    position: absolute;
+    position: relative;
     /* margin: 0 0 20em; */
     /*box-shadow: 10px 10px 30px 15px #000000, -10px -10px,
         -15px 10px;  Se puede utilizar box shadow y text shadow de ésta manera incluso aplicando colores. */
