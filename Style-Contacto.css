@@ -1,10 +1,10 @@
-@import "./Fonts.css";
-@import "./reset.css";
-@import "./responsive.css";
+@import "Fonts.css";
+@import "reset.css";
+@import "responsive.css";
 
 header {
   background-color: #bbbbbb;
-  background: url(../img/papel-tapiz-peluquero-fondo-marmol-negro.jpg);
+  background: url(img/papel-tapiz-peluquero-fondo-marmol-negro.jpg);
   background-size: cover;
   padding: 80px 0;
 }
@@ -117,7 +117,7 @@ transform: ;
 /*Pie de página*/
 footer {
   text-align: center;
-  background: url(../img/telon-fondo-textura-muro-hormigon-solido.jpg);
+  background: url(img/telon-fondo-textura-muro-hormigon-solido.jpg);
   background-size: 100%;
   padding: 40px;
 }
