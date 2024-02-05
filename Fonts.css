@@ -1,13 +1,13 @@
 /*Tipografía general de toda la página*/
 @font-face{
     font-family: "CaptainPod";
-    src: url(../Fonts/Captain-Podd/Captpod.ttf);
+    src: url(Captpod.ttf);
 
     font-family: "Audiowide";
-    src: url(../Fonts/Audiowide-google-fonts/Audiowide-Regular.ttf);
+    src: url(Audiowide-Regular.ttf);
 
     font-family: "ShareTechMono";
-    src: url(../Fonts/Share_Tech_Mono-google-fonts/ShareTechMono-Regular.ttf);
+    src: url(ShareTechMono-Regular.ttf);
   }
   
   html, body, nav, p, footer{
